@@ -1,0 +1,56 @@
+<p align="center">
+  <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+</p>
+
+<h1>Exploring Networking Concepts in Azure Using Virtual Machines</h1>
+In this tutorial, we explore networking configurations in Azure using Virtual Machines, including both Windows 10 and Ubuntu (Linux) VMs. We also investigate network traffic using various network protocols and tools. <br />
+
+<h2>Video Demonstration</h2>
+
+- ### [YouTube: Azure Virtual Machines and Networking Concepts](https://www.youtube.com)
+
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Various Command-Line Tools
+- Network Security Groups (NSGs)
+- Wireshark (Protocol Analyzer)
+
+<h2>Operating Systems Used</h2>
+
+- Windows 10 (21H2)
+- Ubuntu Server 20.04
+
+<h2>High-Level Steps</h2>
+
+- Step 1: Provisioning Virtual Machines (Windows 10 and Ubuntu)
+- Step 2: Configuring Network Security Groups (NSGs)
+- Step 3: Inspecting Traffic Using Wireshark
+- Step 4: Analyzing Results and Making Adjustments
+
+<h2>Actions and Observations</h2>
+
+<p>
+  <img src="https://i.imgur.com/yourimageid.png" height="80%" width="80%" alt="Wireshark Traffic Analysis"/>
+</p>
+<p>
+  Here, we capture network traffic between the Windows 10 and Ubuntu VMs using Wireshark. We examine the protocols used and how they interact across the network.
+</p>
+<br />
+
+<p>
+  <img src="https://i.imgur.com/yourimageid.png" height="80%" width="80%" alt="Network Security Groups"/>
+</p>
+<p>
+  We configure Network Security Groups to secure communication between the VMs, controlling the flow of traffic and verifying access restrictions.
+</p>
+<br />
+
+<p>
+  <img src="https://i.imgur.com/yourimageid.png" height="80%" width="80%" alt="Network Traffic Capture"/>
+</p>
+<p>
+  Traffic capture from the Ubuntu VM to the Windows 10 VM, demonstrating various network protocols such as SSH, HTTP, and ICMP.
+</p>
+<br />
